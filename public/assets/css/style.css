@@ -1572,7 +1572,7 @@ header.header {
    }
     @media (max-width: 767.98px) {
       .mobile-menu-user {
-        padding-left:36px; 
+        padding-left:36px;
       }
 
       .mobile-menu-user select {
@@ -1686,8 +1686,8 @@ header.header {
         font-weight: normal; }
         .page-stepper .page-step-wrapper .page-step .page-step-text a {
           color: rgba(255, 255, 255, 0.6);
-          text-decoration: none; 
-        font-weight: normal; 
+          text-decoration: none;
+        font-weight: normal;
 
           }
         @media (max-width: 767.98px) {
@@ -2139,7 +2139,7 @@ section#up-token {
         text-decoration: none;
         cursor: pointer;
         margin: 0; }
- 
+
         @media (max-width: 767.98px) {
           .game-bar-list .game-bar-item .game-bar-info .game-bar-info-header {
             font-size: 0.75em;
@@ -2258,7 +2258,7 @@ section#up-token {
   #create, #view, #edit-page {
   margin-bottom: 20px;
   }
-  
+
   .post_default .post_img {
     position: relative;
     padding-top: 56.25%;
@@ -2530,14 +2530,14 @@ display: none;
 }
 
 a.nb_post {
-  line-height: 2; 
+  line-height: 2;
 }
 
 .post_author a:hover {
   color: #491E5F;
 }
 
-select#loggedIn {
+select#loggedIn{
   color: #91FAFF;
   border:0px;
   outline:0px;
@@ -2547,6 +2547,13 @@ select#loggedIn {
   margin-left: -8px;
   width: 106%;
 }
+
+select#loggedIn option {
+    color: black;
+}
+
+
+
 
 
 
@@ -2667,7 +2674,7 @@ optgroup {
   .votes-remaining-view h3 {
     margin-bottom: 0;
     margin-top: 5px;
-  }  
+  }
   .votes-remaining-view p {
     margin-top: 5px;
     margin-bottom: 10px;
